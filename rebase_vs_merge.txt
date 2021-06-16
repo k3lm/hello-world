@@ -1,3 +1,0 @@
-Chcąc zintegrowac feature branch z masterem(lub inna galezia) możemy użyc komendy merge lub rebase.
-W przypadku zastosowania komendy merge tworzony jest nowy commit, informujacy o tym, ze branch zostal scalony z masterem. Lista zmian nie bedzie wtedy liniowa, istniec bedzie rozgalezienie z commitami w feature branchu.
-Jezeli zastosowany rebase, commity z feature brancha zostaja przepisane u podstawy mastera. Nie powstaje przez to sztuczny 'merge commit' jak w przypadku komendy merge. Struktura projektu jest wtedy liniowa.
